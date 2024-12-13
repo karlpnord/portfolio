@@ -2,6 +2,7 @@ import Header from './components/header/Header';
 import SideNav from './components/header/SideNav';
 import Hero from './components/hero/Hero';
 import About from './components/about/About';
+import Projects from './components/projects/Projects';
 
 const App = () => {
   return (
@@ -12,7 +13,7 @@ const App = () => {
         <div className='mx-auto max-w-5xl px-4 md:px-8 space-y-32 pb-24'>
           <Hero />
           <About />
-          Projects
+          <Projects />
           Contact
         </div>
       </main>
