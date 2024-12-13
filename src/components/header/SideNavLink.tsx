@@ -22,6 +22,7 @@ const SideNavLink = ({
       initial={{ x: -70 }}
       animate={{ x: 0 }}
       transition={{ duration: 0.5, delay: 0.1 }}
+      className='w-full'
     >
       <Link
         to={href}
@@ -33,7 +34,7 @@ const SideNavLink = ({
           }
           setSelected(value);
         }}
-        className={`[writing-mode:vertical-rl] h-24 shrink-0 flex items-center justify-center border-r-2 font-semibold text-sm text-textWhite transition-all p-4 ${
+        className={`[writing-mode:vertical-rl] h-24 shrink-0 flex items-center justify-center border-r-2 font-semibold text-sm text-textWhite transition-all w-full ${
           selected === value
             ? 'bg-bgDark border-primary opacity-100'
             : 'border-transparent hover:border-r-zinc-50 opacity-50 hover:bg-bgDark'

@@ -30,7 +30,7 @@ const SideNav = () => {
       initial={{ x: -70 }}
       animate={{ x: 0 }}
       transition={{ duration: 0.5 }}
-      className='scrollbar-none bg-bgDarkest h-screen sticky top-0 left-0 z-20 flex flex-col items-center'
+      className='bg-bgDarkest h-screen w-[38px] sm:w-[54px] sticky top-0 left-0 z-20 flex flex-col items-center'
     >
       <span className='shrink-0 text-xl font-bold text-textWhite leading-[1] size-10 flex items-center justify-center my-4'>
         K<span className='text-primary'>.</span>
@@ -38,7 +38,7 @@ const SideNav = () => {
       <SideNavLink
         selected={selected}
         setSelected={setSelected}
-        value='#about'
+        value='about'
         href='#about'
       >
         About
@@ -46,7 +46,7 @@ const SideNav = () => {
       <SideNavLink
         selected={selected}
         setSelected={setSelected}
-        value='#projects'
+        value='projects'
         href='#projects'
       >
         Projects
@@ -54,7 +54,7 @@ const SideNav = () => {
       <SideNavLink
         selected={selected}
         setSelected={setSelected}
-        value='#contact'
+        value='contact'
         href='#contact'
       >
         Contact

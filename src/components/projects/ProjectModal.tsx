@@ -85,7 +85,7 @@ const ProjectModal = ({
                 className='text-textGray hover:text-primaryLight transition-colors flex items-center gap-1'
                 to={projectLink}
               >
-                <AiOutlineExport /> Live Project
+                <AiOutlineExport /> Live Demo
               </Link>
             </div>
           </div>
