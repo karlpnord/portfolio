@@ -5,7 +5,7 @@ const MyLinks = () => (
   <div className='flex items-center text-lg gap-4'>
     <Link
       className='text-zinc-300 hover:text-primary transition-colors'
-      to='https://www.linkedin.com'
+      to='https://www.linkedin.com/in/karl-petter-n-560624137/'
       target='_blank'
       rel='nofollow'
     >
@@ -13,7 +13,7 @@ const MyLinks = () => (
     </Link>
     <Link
       className='text-zinc-300 hover:text-primary transition-colors'
-      to='https://www.github.com'
+      to='https://github.com/karlpnord'
       target='_blank'
       rel='nofollow'
     >
