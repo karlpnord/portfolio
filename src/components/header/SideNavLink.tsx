@@ -28,10 +28,10 @@ const SideNavLink = ({
         onClick={() => {
           setSelected(value);
         }}
-        className={`[writing-mode:vertical-rl] h-24 shrink-0 flex items-center justify-center border-r-2 font-semibold text-sm text-gray-100 transition-all p-4 ${
+        className={`[writing-mode:vertical-rl] h-24 shrink-0 flex items-center justify-center border-r-2 font-semibold text-sm text-textWhite transition-all p-4 ${
           selected === value
-            ? 'bg-zinc-800 border-purple-500 opacity-100'
-            : 'border-transparent hover:border-r-zinc-50 opacity-50 hover:bg-zinc-900'
+            ? 'bg-bgDark border-primary opacity-100'
+            : 'border-transparent hover:border-r-zinc-50 opacity-50 hover:bg-bgDark'
         }`}
       >
         {children}

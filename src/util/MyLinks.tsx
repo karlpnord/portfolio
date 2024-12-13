@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const MyLinks = () => (
   <div className='flex items-center text-lg gap-4'>
     <Link
-      className='text-zinc-300 hover:text-purple-500 transition-colors'
+      className='text-zinc-300 hover:text-primary transition-colors'
       to='https://www.linkedin.com'
       target='_blank'
       rel='nofollow'
@@ -12,7 +12,7 @@ const MyLinks = () => (
       <SiLinkedin />
     </Link>
     <Link
-      className='text-zinc-300 hover:text-purple-500 transition-colors'
+      className='text-zinc-300 hover:text-primary transition-colors'
       to='https://www.github.com'
       target='_blank'
       rel='nofollow'
@@ -20,7 +20,7 @@ const MyLinks = () => (
       <SiGithub />
     </Link>
     <Link
-      className='text-zinc-300 hover:text-purple-500 transition-colors'
+      className='text-zinc-300 hover:text-primary transition-colors'
       to='https://www.x.com'
       target='_blank'
       rel='nofollow'
@@ -28,7 +28,7 @@ const MyLinks = () => (
       <SiX />
     </Link>
     <Link
-      className='text-zinc-300 hover:text-purple-500 transition-colors'
+      className='text-zinc-300 hover:text-primary transition-colors'
       to='https://www.codepen.io'
       target='_blank'
       rel='nofollow'

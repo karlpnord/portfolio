@@ -30,10 +30,10 @@ const SideNav = () => {
       initial={{ x: -70 }}
       animate={{ x: 0 }}
       transition={{ duration: 0.5 }}
-      className='scrollbar-none bg-zinc-950 h-screen sticky top-0 left-0 z-20 flex flex-col items-center'
+      className='scrollbar-none bg-bgDarkest h-screen sticky top-0 left-0 z-20 flex flex-col items-center'
     >
-      <span className='shrink-0 text-xl font-bold text-gray-100 leading-[1] size-10 flex items-center justify-center my-4'>
-        K<span className='text-purple-500'>.</span>
+      <span className='shrink-0 text-xl font-bold text-textWhite leading-[1] size-10 flex items-center justify-center my-4'>
+        K<span className='text-primary'>.</span>
       </span>
       <SideNavLink
         selected={selected}
