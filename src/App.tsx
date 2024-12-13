@@ -7,11 +7,11 @@ import Contact from './components/contact/Contact';
 
 const App = () => {
   return (
-    <div style={{ gridTemplateColumns: 'minmax(32px, 48px) 1fr' }} className='grid bg-bgLight relative'>
+    <div className='flex bg-bgLight'>
       <SideNav />
-      <main className='bg-bgLight relative'>
+      <main className='flex-1 bg-bgLight overflow-x-hidden'>
         <Header />
-        <div className='w-[84%] max-w-5xl sm:w-full px-3 sm:px-4 md:px-8 space-y-12 sm:space-y-24 md:space-y-32 pb-24'>
+        <div className='mx-auto max-w-5xl px-3 sm:px-4 md:px-8 space-y-12 sm:space-y-24 md:space-y-32 pb-24'>
           <Hero />
           <About />
           <Projects />
