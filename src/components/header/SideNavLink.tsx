@@ -25,7 +25,12 @@ const SideNavLink = ({
     >
       <Link
         to={href}
-        onClick={() => {
+        onClick={(e) => {
+          e.preventDefault();
+          const target = document.querySelector(href);
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
           setSelected(value);
         }}
         className={`[writing-mode:vertical-rl] h-24 shrink-0 flex items-center justify-center border-r-2 font-semibold text-sm text-textWhite transition-all p-4 ${
