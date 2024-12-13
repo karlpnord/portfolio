@@ -7,7 +7,7 @@ interface Props {
 
 const OutlineButton = ({ handler, children }: Props) => {
   return (
-    <button onClick={handler} className='text-gray-200 border border-gray-200 px-4 py-2 rounded-md font-medium hover:bg-gray-200 hover:text-zinc-900 transition-colors'>
+    <button onClick={handler} className='text-textWhite border border-primary px-4 py-2 rounded-md font-medium hover:bg-primary hover:text-primaryContent transition-colors'>
       {children}
     </button>
   );
