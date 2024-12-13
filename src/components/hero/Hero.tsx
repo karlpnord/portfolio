@@ -20,7 +20,7 @@ const Hero = () => {
             </h2>
           </Reveal>
           <Reveal>
-            <p className='pointer-events-auto leading-relaxed md:leading-relaxed max-w-xl text-sm text-textGrayDark md:text-base'>
+            <p className='pointer-events-auto leading-relaxed md:leading-relaxed max-w-xl text-sm text-textGray md:text-base'>
               I've spent the last 2 years studying front-end development at Noroff, building a strong foundation in creating dynamic and user-friendly web experiences.
               Now, I'm eager to take the next step by joining a team where I can grow my skills, collaborate with talented professionals, and make an impact through innovative projects.
             </p>
