@@ -3,7 +3,7 @@ import Reveal from '../../util/Reveal';
 
 const Hero = () => {
   return (
-    <section className='text-slat-100 overflow-hidden py-24 md:py-32'>
+    <section className='text-textWhite overflow-hidden py-24 md:py-32'>
       <div className='relative'>
         <div className='pointer-events-none relative z-10'>
           <Reveal>

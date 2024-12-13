@@ -38,7 +38,7 @@ const SideNav = () => {
       <SideNavLink
         selected={selected}
         setSelected={setSelected}
-        value='#about'
+        value='about'
         href='#about'
       >
         About
@@ -46,7 +46,7 @@ const SideNav = () => {
       <SideNavLink
         selected={selected}
         setSelected={setSelected}
-        value='#projects'
+        value='projects'
         href='#projects'
       >
         Projects
@@ -54,7 +54,7 @@ const SideNav = () => {
       <SideNavLink
         selected={selected}
         setSelected={setSelected}
-        value='#contact'
+        value='contact'
         href='#contact'
       >
         Contact
