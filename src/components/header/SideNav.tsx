@@ -9,7 +9,7 @@ const SideNav = () => {
     const sections = document.querySelectorAll('.section-wrapper');
 
     const options = {
-      threshold: 0.3,
+      threshold: 0.25,
     };
 
     const callback = (entries: any) => {

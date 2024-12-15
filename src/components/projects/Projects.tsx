@@ -21,7 +21,7 @@ const projects = [
     imgSrc: 'project-imgs/holidaze.jpg',
     code: 'https://github.com/karlpnord/project-exam-2',
     projectLink: 'https://holidaze-karlpnord.netlify.app/',
-    tech: ['React', 'Tailwind', 'React Query', 'Framer Motion'],
+    tech: ['React', 'TypeScript', 'Tailwind', 'React Query', 'Framer Motion'],
     description:
       'An Airbnb-inspired app for seamless venue management and bookings, featuring modern technologies and a user-friendly interface for travelers and hosts.',
     modalContent: (
@@ -46,7 +46,7 @@ const projects = [
     imgSrc: 'project-imgs/e-commerce.jpg',
     code: 'https://github.com/karlpnord/js-frameworks-ca',
     projectLink: 'https://tranquil-parfait-3be61a.netlify.app/',
-    tech: ['React', 'Tailwind', 'React Context'],
+    tech: ['React', 'JavaScript', 'Tailwind', 'React Context'],
     description:
       'A fully functional shopping platform with cart management, API integration, responsive design, and dark/light modes, built with React and Tailwind CSS.',
     modalContent: (

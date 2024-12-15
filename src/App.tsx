@@ -4,6 +4,7 @@ import Hero from './components/hero/Hero';
 import About from './components/about/About';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
+import ScrollToTopButton from './components/buttons/ScrollToTopButton';
 
 const App = () => {
   return (
@@ -11,11 +12,12 @@ const App = () => {
       <SideNav />
       <main className='flex-1 bg-bgLight overflow-x-hidden'>
         <Header />
-        <div className='mx-auto max-w-5xl px-3 sm:px-4 md:px-8 space-y-12 sm:space-y-24 md:space-y-32 pb-24'>
+        <div className='mx-auto max-w-5xl relative px-3 sm:px-4 md:px-8 space-y-12 sm:space-y-24 md:space-y-32 pb-24'>
           <Hero />
           <About />
           <Projects />
           <Contact />
+          <ScrollToTopButton />
         </div>
       </main>
     </div>

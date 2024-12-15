@@ -1,50 +1,38 @@
-# React + TypeScript + Vite
+###### Karl Petter Nordgaard Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Introduction
+Welcome to my personal portfolio website, showcasing my skills, projects, and experience as a front-end developer. Explore my projects, learn about my journey, and feel free to get in touch.
 
-Currently, two official plugins are available:
+### Screenshot
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot of the application](./src/assets/Karl-Nordgaard-Porfolio.png)
 
-## Expanding the ESLint configuration
+### Features
+- Fully responsive design.
+- Interactive project showcase.
+- About section with an overview of skills and interests.
+- Contact section for easy communication.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Technologies Used
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Vite
 
-- Configure the top-level `parserOptions` property like this:
+[![My Skills](https://skillicons.dev/icons?i=react,typescript,tailwindcss,vite)](https://skillicons.dev)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### Setup and Installation
+```bash
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
+npm install
+npm run dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Live Demo
+https://karlpnordportfolio.netlify.app/
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Contact
+- Email: nordgaardkarlpetter@gmail.com
+- LinkedIn: https://www.linkedin.com/in/karl-petter-n-560624137/

@@ -2,6 +2,10 @@ import SecondaryButton from '../buttons/SecondaryButton';
 import Reveal from '../../util/Reveal';
 
 const Hero = () => {
+  const scrollToContact = () => {
+    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section className='text-textWhite overflow-hidden py-24 md:py-32'>
       <div className='relative'>
@@ -25,9 +29,9 @@ const Hero = () => {
               Now, I'm eager to take the next step by joining a team where I can grow my skills, collaborate with talented professionals, and make an impact through innovative projects.
             </p>
           </Reveal>
-          <Reveal>
+          <Reveal width='overflow-visible'>
             <SecondaryButton
-              clickHandler={() => {console.log('Redirect to contact section');}}
+              clickHandler={() => scrollToContact()}
               className={'pointer-events-auto mt-4 md:mt-6'}
             >
               Contact Me
