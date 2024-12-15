@@ -3,6 +3,10 @@
 ### Introduction
 Welcome to my personal portfolio website, showcasing my skills, projects, and experience as a front-end developer. Explore my projects, learn about my journey, and feel free to get in touch.
 
+### Screenshot
+
+![Screenshot of the application](./src/assets/Karl-Nordgaard-Porfolio.png)
+
 ### Features
 - Fully responsive design.
 - Interactive project showcase.
