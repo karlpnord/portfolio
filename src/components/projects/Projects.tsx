@@ -42,6 +42,32 @@ const projects = [
     ),
   },
   {
+    title: 'Todo App',
+    imgSrc: 'project-imgs/todo-app.jpg',
+    code: 'https://github.com/karlpnord/todo-app',
+    projectLink: 'https://karlpnord-todo-app.netlify.app/',
+    tech: ['React', 'TypeScript', 'Tailwind', 'Zustand', 'Framer Motion'],
+    description:  
+  'A robust task management application designed for productivity, featuring intuitive interfaces and advanced organizational tools built with modern technologies.',
+    modalContent: (  
+      <>  
+        <p>  
+        Welcome to the TODO App, a personal project built to enhance productivity and task organization while sharpening my skills in TypeScript and Zustand.  
+        </p>  
+        <p>  
+        The application provides a clean, intuitive interface for creating and managing tasks. Users can add, edit, prioritize, and complete tasks effortlessly, while also organizing them into custom lists. Progress tracking and stats are displayed on a dynamic dashboard for a clear overview of productivity.  
+        </p>  
+        <p>  
+        Developed using modern front-end technologies, the TODO App leverages React for its robust UI, Tailwind CSS for styling, and Zustand for efficient state management. Framer Motion adds fluid animations, enhancing the user experience, and Vite ensures rapid development and builds.  
+        </p>  
+        <p>  
+        This project reflects my commitment to crafting functional, user-friendly applications and exploring innovative technologies in web development.  
+        </p>  
+      </>  
+    ),
+  
+  },
+  {
     title: 'E-Commerce Store',
     imgSrc: 'project-imgs/e-commerce.jpg',
     code: 'https://github.com/karlpnord/js-frameworks-ca',
